@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="site.lovefan.communityPharmacy.mapper.OutOrderMapper" >
+  <resultMap id="BaseResultMap" type="site.lovefan.communityPharmacy.pojo.OutOrder" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="buyer_name" property="buyerName" jdbcType="VARCHAR" />
+    <result column="buyer_phone" property="buyerPhone" jdbcType="VARCHAR" />
+    <result column="sick_situation" property="sickSituation" jdbcType="VARCHAR" />
+    <result column="total_price" property="totalPrice" jdbcType="DOUBLE" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="site.lovefan.communityPharmacy.mapper.DrugMapper" >
+  <resultMap id="BaseResultMap" type="site.lovefan.communityPharmacy.pojo.Drug" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="number" property="number" jdbcType="VARCHAR" />
+    <result column="component" property="component" jdbcType="VARCHAR" />
+    <result column="brand" property="brand" jdbcType="VARCHAR" />
+    <result column="in_price" property="inPrice" jdbcType="REAL" />
+    <result column="out_price" property="outPrice" jdbcType="REAL" />
+    <result column="desc" property="desc" jdbcType="VARCHAR" />
+    <result column="taboo_crowd" property="tabooCrowd" jdbcType="VARCHAR" />
+    <result column="enabled" property="enabled" jdbcType="TINYINT" />
+    <result column="instructions" property="instructions" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

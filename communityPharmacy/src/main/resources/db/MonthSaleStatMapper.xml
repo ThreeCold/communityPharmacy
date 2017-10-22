@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="site.lovefan.communityPharmacy.mapper.MonthSaleStatMapper" >
+  <resultMap id="BaseResultMap" type="site.lovefan.communityPharmacy.pojo.MonthSaleStat" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="drug_id" property="drugId" jdbcType="BIGINT" />
+    <result column="total_count" property="totalCount" jdbcType="BIGINT" />
+    <result column="total_price" property="totalPrice" jdbcType="DOUBLE" />
+    <result column="year" property="year" jdbcType="INTEGER" />
+    <result column="month" property="month" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

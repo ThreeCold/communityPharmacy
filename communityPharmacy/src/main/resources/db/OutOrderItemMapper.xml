@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="site.lovefan.communityPharmacy.mapper.OutOrderItemMapper" >
+  <resultMap id="BaseResultMap" type="site.lovefan.communityPharmacy.pojo.OutOrderItem" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="out_order_id" property="outOrderId" jdbcType="BIGINT" />
+    <result column="in_order_id" property="inOrderId" jdbcType="BIGINT" />
+    <result column="buy_count" property="buyCount" jdbcType="BIGINT" />
+  </resultMap>
+</mapper>
